@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.fcontainer{
+display: flex;
+flex-direction: row-reverse;
+height: 400px;
+border: 2px solid forestgreen;
+justify-content: space-between;
+flex-wrap: wrap-reverse;
+align-items: center;
+
+}
+.fitem{
+width: 100px;
+height: 100px;
+background-color: brown;
+font-size: 50px;
+border-width: 10px;
+border-color: black;
+border-style: double;
+margin: 20px;
+margin-top: 10px;
+padding: 20px;
+
+}
+.item1{
+    order: 2;
+    flex-grow: 4;
+}
+.item3{
+    order: -1;
+    flex-grow: 3;
+}

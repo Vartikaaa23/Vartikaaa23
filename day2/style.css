@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-size:border-box;
+}
+
+myid1{
+background-color: aqua;
+font-size: 30px;
+    }
+myid2{
+    background-color: beige;
+    font-size: 30px;
+}
+.myclass{
+    background-color: aquamarine;
+
+}
+div p{
+    background-color: brown;
+    font-size: large;
+    font-style: normal;
+}
+ div p{
+    background-color: blue;
+    font-size: large;
+ }
